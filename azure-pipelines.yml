@@ -14,9 +14,6 @@ pool:
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
   dotnetSdkVersion: '3.1.300'
 
 steps:
